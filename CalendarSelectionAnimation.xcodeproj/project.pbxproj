@@ -12,6 +12,8 @@
 		4A891B7F1F5C3A4B00BBD308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A891B7D1F5C3A4B00BBD308 /* Main.storyboard */; };
 		4A891B811F5C3A4B00BBD308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A891B801F5C3A4B00BBD308 /* Assets.xcassets */; };
 		4A891B841F5C3A4B00BBD308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A891B821F5C3A4B00BBD308 /* LaunchScreen.storyboard */; };
+		4A891B8D1F5C3BBD00BBD308 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A891B8B1F5C3BBD00BBD308 /* CollectionViewCell.swift */; };
+		4A891B8E1F5C3BBD00BBD308 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A891B8C1F5C3BBD00BBD308 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4A891B801F5C3A4B00BBD308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A891B831F5C3A4B00BBD308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A891B851F5C3A4B00BBD308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A891B8B1F5C3BBD00BBD308 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4A891B8C1F5C3BBD00BBD308 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				4A891B791F5C3A4B00BBD308 /* AppDelegate.swift */,
 				4A891B7B1F5C3A4B00BBD308 /* ViewController.swift */,
+				4A891B8B1F5C3BBD00BBD308 /* CollectionViewCell.swift */,
+				4A891B8C1F5C3BBD00BBD308 /* CollectionViewCell.xib */,
 				4A891B7D1F5C3A4B00BBD308 /* Main.storyboard */,
 				4A891B801F5C3A4B00BBD308 /* Assets.xcassets */,
 				4A891B821F5C3A4B00BBD308 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				4A891B841F5C3A4B00BBD308 /* LaunchScreen.storyboard in Resources */,
 				4A891B811F5C3A4B00BBD308 /* Assets.xcassets in Resources */,
+				4A891B8E1F5C3BBD00BBD308 /* CollectionViewCell.xib in Resources */,
 				4A891B7F1F5C3A4B00BBD308 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				4A891B7C1F5C3A4B00BBD308 /* ViewController.swift in Sources */,
 				4A891B7A1F5C3A4B00BBD308 /* AppDelegate.swift in Sources */,
+				4A891B8D1F5C3BBD00BBD308 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -303,6 +311,7 @@
 				4A891B8A1F5C3A4B00BBD308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
